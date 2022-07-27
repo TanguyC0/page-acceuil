@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: white;
+}
+
+.demi
+{
+    display: flex;
+    flex: 1;
+}
+
+.two-tier
+{
+    display: flex;
+    flex: 2;
+}
+
+.one-tier
+{
+    display: flex;
+    flex: 1;
+}
+
+.tree-quarter
+{
+    display: flex;
+    flex: 3;
+}
+
+.two-quarter
+{
+    display: flex;
+    flex: 2;
+}
+
+.one-quarter
+{
+    display: flex;
+    flex: 1;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+}
+
+/* .nav-link
+{
+    display: flex;
+} */
+
+.horizontal
+{flex-direction: column;}
+
+.vertical
+{flex-direction: row;}
+
+.marge-interne
+{
+    padding: 1.5em;
+}
+
+.big-number-title
+{
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+.text
+{
+    font-size: 1.2em;
+}
+
+.description
+{
+    justify-content: space-between;
+    padding-bottom: 1.8em;
+}
+
+.link
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.img-one
+{
+    background-image: url("../img/entrepreneur-startup-start-up-man-39866.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-two
+{
+    background-image: url("../img/pexels-photo-834895.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-three
+{
+    background-image: url("../img/pexels-photo-6078537.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
